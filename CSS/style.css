@@ -86,7 +86,11 @@ body{
 
 .counter-icon
 {
-    color: pink;
+  
+    background-image:linear-gradient(130deg, #ffa159 35%, #ff39b3 100%);   
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 .counter-h4
 {
@@ -109,5 +113,83 @@ body{
 .feature-p
 {
     color: #82848a;
+    font-weight: 600;
 }
+
+.feature-h1
+{
+    font-weight: bolder;
+    margin-bottom: 2em;
+}
+
+
+.feature-div1
+{
+    margin-bottom: 6em;
+}
+
+.feature-img-people
+{
+    margin-bottom: 2em;
+}
+
+.feature-img-div
+{
+    margin-bottom: 8em;
+}
+
+.feature-p-img
+{
+    color: #82848a;
+    margin-left: 12em;
+    margin-right: 12em;
+    margin-bottom: 1.5em;
+}
+
+.feature-cont-1
+{
+    margin-bottom: 8em;
+}
+
+
+.card-icon
+{
+    background-image:linear-gradient(130deg, #ffa159 35%, #ff39b3 100%);   
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+}
+
+.card-h3
+{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.card-text
+{
+    margin-top: 1.5em;
+    color: #82848a;
+
+}
+.card-body
+{
+    margin-bottom: 3em;
+}
+
+
+.dl-p
+{
+    margin-bottom: 0;
+}
+/* coursel */
+
+
+
+
+
+
 
