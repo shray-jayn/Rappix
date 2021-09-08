@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
 
 
-/* Utility Classes  */
+/* ===================Utility Classes ================================ */
 
 
 body {
@@ -14,7 +14,7 @@ body {
     box-sizing: border-box;
 }
 
-/* NAVBAR  */
+/*=========================== NAVBAR ================================= */
 
 #top-navbar {
     margin-top: 0;
@@ -36,11 +36,11 @@ body {
 
 }
 
-/* NAVBAR END  */
+/*=============================== NAVBAR END ===================================== */
 
 
 
-/* Header */
+/*=============================== Header -------------------------------------------*/
 
 #header {
     background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
@@ -72,7 +72,7 @@ body {
 
 
 
-/* Counter */
+/*================================= Counter ========================================*/
 
 #counter {
     margin-top: 4em;
@@ -114,7 +114,7 @@ body {
 
 
 
-/* Feature */
+/*========================================= Feature ======================================*/
 
 .feature-p {
     color: #82848a;
@@ -205,10 +205,56 @@ body {
     background-color: white;
 }
 
-/* coursel */
+/*================================= coursel =============================== */
 
 
-/* Latest News */
+
+
+
+
+/* ==================================FAQS============================== */
+
+
+#faqs
+{
+    margin-top: 4em;
+    margin-bottom: 6em;
+}
+
+.faq-h1
+{
+    font-size: 3.3em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.col-faq-1
+{
+    margin-left: 2em;
+    margin-right: 3em;
+}
+
+.faq-1
+{
+    margin-left: 7em;
+    margin-right: 9em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.txt-faq
+{
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+/*=============================== Latest News ==============================*/
 
 
 .latest-news
@@ -228,7 +274,7 @@ body {
 
 
 
-/* contact us */
+/*============================= contact us ============================*/
 .contact-us
 {
     text-align: center;
@@ -293,7 +339,11 @@ body {
 
 
 
-/* Footer */
+/*==================================== Footer ======================================*/
+
+
+
+
 
 #footer {
     background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
