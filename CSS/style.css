@@ -206,3 +206,12 @@ body {
     background-color: white;
 }
 /* coursel */
+
+/* Footer */
+
+#footer
+{
+    background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
+    color: white;
+
+}
