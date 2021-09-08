@@ -207,6 +207,92 @@ body {
 
 /* coursel */
 
+
+/* Latest News */
+
+
+.latest-news
+{
+    text-align: center;
+    margin-top: 4em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* contact us */
+.contact-us
+{
+    text-align: center;
+    margin-top: 7em;
+}
+.contact-us-2
+{
+    margin-bottom: 5em;
+}
+
+.contact-icon
+{
+    background-image: linear-gradient(130deg, #ffa159 35%, #ff39b3 100%);
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+}
+
+.contact-form
+{
+    background-color: #e2e3e5;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+
+.Address-box
+{
+    margin-left: 3em;
+}
+
+.h3-btm
+{
+    margin-bottom: .5em;
+
+}
+
+.p-contact
+{
+    color: #82848a;
+}
+.h3-contact
+{
+    font-weight:600;
+}
+
+.form-control
+{
+    margin-bottom: 2em;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 #footer {
@@ -231,6 +317,20 @@ body {
     margin-bottom: 2em;
 }
 
+
+.foot-h2
+{
+    font-size: 3em;
+    font-weight: bolder;
+
+}
+
+
+.rw-1
+{
+    margin-bottom: 1em;
+    text-align: center;
+}
 
 
 .foot-icon
