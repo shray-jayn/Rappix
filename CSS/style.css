@@ -82,7 +82,12 @@ body {
     line-height: 1.6em;
 
 }
-
+.repeat {
+    animation-name: animationheader;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
 
 
 
@@ -341,6 +346,30 @@ body {
  }
 
  */
+
+/* PARALLAZ */
+
+#parallax
+{
+     padding: 150px 0px;
+    background-image:url('http://rappix-epizy.surge.sh/images/bg-parallax-4.png'), linear-gradient( 130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==================================FAQS============================== */
 
