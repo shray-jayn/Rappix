@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
 
 
+
+
 /* ===================Utility Classes ================================ */
+
+
 
 
 body {
@@ -14,7 +18,10 @@ body {
     box-sizing: border-box;
 }
 
+
+
 /*=========================== NAVBAR ================================= */
+
 
 #top-navbar {
     margin-top: 0;
@@ -56,6 +63,8 @@ body {
 
 /*=============================== Header -------------------------------------------*/
 
+
+
 #header {
     background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
     padding-top: 2em;
@@ -82,6 +91,7 @@ body {
     line-height: 1.6em;
 
 }
+
 .repeat {
     animation-name: animationheader;
     animation-duration: 3s;
@@ -130,9 +140,6 @@ body {
 }
 
 
-
-
-
 /*========================================= Feature ======================================*/
 
 
@@ -168,6 +175,12 @@ body {
 
 .feature-cont-1 {
     margin-bottom: 8em;
+}
+
+
+.card {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 
@@ -225,134 +238,61 @@ body {
     background-color: white;
 }
 
+
 /*================================= coursel =============================== */
-/* 
 
-.carousel-showmanymoveone .carousel-control {
-    width: 4%;
-    background-image: none;
- }
- 
- .carousel-showmanymoveone .carousel-control.left {
-    margin-left: 0;
- }
- 
- .carousel-showmanymoveone .carousel-control.right {
-    margin-right: 0;
- }
- 
- .carousel-showmanymoveone .cloneditem-1,
- .carousel-showmanymoveone .cloneditem-2,
- .carousel-showmanymoveone .cloneditem-3 {
-    display: none;
- }
- 
- .carousel .item .col-xs-12 {
-    padding: 0;
- }
- 
- 
- /* Medium Devices, Desktops 
- 
- @media only screen and (max-width: 992px) {
-    .carousel .item .col-xs-12:nth-last-child(-n+2) {
-       display: none;
-    }
- }
- 
- @media all and (min-width: 768px) {
-    .carousel-showmanymoveone .carousel-inner > .active.left,
-    .carousel-showmanymoveone .carousel-inner > .prev {
-       left: -50%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .active.right,
-    .carousel-showmanymoveone .carousel-inner > .next {
-       left: 50%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .left,
-    .carousel-showmanymoveone .carousel-inner > .prev.right,
-    .carousel-showmanymoveone .carousel-inner > .active {
-       left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
-       display: block;
-    }
- }
- 
- @media all and (min-width: 768px) and (transform-3d),
- all and (min-width: 768px) and (-webkit-transform-3d) {
-    .carousel-showmanymoveone .carousel-inner > .item.active.right,
-    .carousel-showmanymoveone .carousel-inner > .item.next {
-       -webkit-transform: translate3d(50%, 0, 0);
-       transform: translate3d(50%, 0, 0);
-       left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.active.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev {
-       -webkit-transform: translate3d(-50%, 0, 0);
-       transform: translate3d(-50%, 0, 0);
-       left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-    .carousel-showmanymoveone .carousel-inner > .item.active {
-       -webkit-transform: translate3d(0, 0, 0);
-       transform: translate3d(0, 0, 0);
-       left: 0;
-    }
- }
- 
- @media all and (min-width: 992px) {
-    .carousel-showmanymoveone .carousel-inner > .active.left,
-    .carousel-showmanymoveone .carousel-inner > .prev {
-       left: -16.6%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .active.right,
-    .carousel-showmanymoveone .carousel-inner > .next {
-       left: 16.6%;
-    }
-    .carousel-showmanymoveone .carousel-inner > .left,
-    .carousel-showmanymoveone .carousel-inner > .prev.right,
-    .carousel-showmanymoveone .carousel-inner > .active {
-       left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner .cloneditem-2,
-    .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
-       display: block;
-    }
- }
- 
- @media all and (min-width: 992px) and (transform-3d),
- all and (min-width: 992px) and (-webkit-transform-3d) {
-    .carousel-showmanymoveone .carousel-inner > .item.active.right,
-    .carousel-showmanymoveone .carousel-inner > .item.next {
-       -webkit-transform: translate3d(16.6%, 0, 0);
-       transform: translate3d(16.6%, 0, 0);
-       left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.active.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev {
-       -webkit-transform: translate3d(-16.6%, 0, 0);
-       transform: translate3d(-16.6%, 0, 0);
-       left: 0;
-    }
-    .carousel-showmanymoveone .carousel-inner > .item.left,
-    .carousel-showmanymoveone .carousel-inner > .item.prev.right,
-    .carousel-showmanymoveone .carousel-inner > .item.active {
-       -webkit-transform: translate3d(0, 0, 0);
-       transform: translate3d(0, 0, 0);
-       left: 0;
-    }
- }
 
- */
+/*================================ pricing====================== */
 
-/* PARALLAZ */
-
-#parallax
+#pricing
 {
-     padding: 150px 0px;
-    background-image:url('http://rappix-epizy.surge.sh/images/bg-parallax-4.png'), linear-gradient( 130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
+    margin-top: 6em;
+}
+
+
+
+
+/*=========================== MESSAGE BOX=========================== */
+
+
+.msg-bx {
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+
+.msg-icn {
+    color: gold;
+}
+
+.msg-mg {
+    background-color: #e0e3e7;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+
+.col-try-it {
+    background-color: #e0e3e7;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 100px 100px 5px 100px;
+}
+
+.cars-img {
+    border-radius: 15px 50px 30px 5px;
+
+}
+
+
+/*======================== PARALLAZ ===============================*/
+
+#parallax {
+    padding: 150px 0px;
+    background-image: url('http://rappix-epizy.surge.sh/images/bg-parallax-4.png'), linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -363,20 +303,11 @@ body {
 
 
 
-
-
-
-
-
-
-
-
 /* ==================================FAQS============================== */
 
 
 #faqs {
-    margin-top: 4em;
-    margin-bottom: 6em;
+    padding: 50px 15em;
 }
 
 .faq-h1 {
@@ -384,29 +315,6 @@ body {
     font-weight: bold;
     margin-bottom: 2em;
 }
-
-.col-faq-1 {
-    margin-left: 2em;
-    margin-right: 3em;
-}
-
-.faq-1 {
-    margin-left: 7em;
-    margin-right: 9em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-.txt-faq {
-    font-weight: bolder;
-}
-
-
-
-
-
-
-
 
 /*=============================== Latest News ==============================*/
 
@@ -417,17 +325,9 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 /*============================= contact us ============================*/
+
+
 .contact-us {
     text-align: center;
     margin-top: 7em;
@@ -471,26 +371,11 @@ body {
 
 .form-control {
     margin-bottom: 2em;
-    ;
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*==================================== Footer ======================================*/
-
-
-
-
 
 #footer {
     background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
@@ -532,3 +417,6 @@ body {
     margin-right: .5em;
     margin-top: .5em;
 }
+
+
+/*==================================== Footer -END  ======================================*/

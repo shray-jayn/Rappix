@@ -54,9 +54,9 @@
 
 
     <!------------------- NAVBAR ----------------------->
+     
 
-
-    <nav class="navbar navbar-expand-lg  navbar-expand-md  navbar-expand-sm navbar-expand-xl  navbar-light bg-light"
+    <nav class="navbar navbar-expand-lg fixed-top navbar-expand-md  navbar-expand-sm navbar-expand-xl  navbar-light bg-light"
         id="top-navbar">
         <a class="navbar-brand" href="#">
             <img src="assets/logo-clr.png" alt="">
@@ -91,12 +91,12 @@
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+               
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="button-try-it">Try it for 7
                     days</button>
             </form>
         </div>
-    </nav>
+    </nav> 
 
 
     <!---------------------- NAVBAR END  --------------------------->
@@ -245,13 +245,15 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="card" ">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="card">
 
-                    <div class=" card-body">
-                    <i class="fas fa-location-arrow fa-2x card-icon"></i>
-                    <h3 class="card-h3">Easy Dashboard</h3>
-                    <p class="card-text">Exchange ideas within a transparent community of friends think.</p>
+                    <div class="card-body">
+                        <i class="fas fa-location-arrow fa-2x card-icon"></i>
+                        <h3 class="card-h3">Easy Dashboard</h3>
+                        <p class="card-text">Exchange ideas within a transparent community of friends think.</p>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -264,10 +266,11 @@
         <img src="assets/img-art.png" class="feature-img-people img-fluid" alt="">
         <h3 class="feature-h1 ">30,0000+ Users</h3>
 
-        <p class="feature-p-img">Exchange ideas within a transparent community of friends think consectetur
+        <p class="text-center grey-colored-text-18 px-5 mt-4">
+            Exchange ideas within a transparent community of friends think consectetur<br>
             adipiscing elit, sed do eiusmod tempor.
-
         </p>
+
 
         <button type="button" class="btn btn-dark" id="free-btn">Try it for 7 days free</button>
 
@@ -396,7 +399,7 @@
 
     <div id="pricing">
         <div class="container">
-            <p class="grey-colored-text-18 text-center font-weight-bold">Pricing plans</p>
+            <p class="text-center font-weight-bold">Pricing plans</p>
             <h1 class="display-4 font-weight-bold text-center text-dark line-height-heading mobile-heading">
                 Extensive functionality,<br>afforadable pricing
             </h1>
@@ -408,7 +411,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12 element-to-hide animation-test">
-                    <div class="card card2 margin-buttons">
+                    <div class="card card2 margin-buttons border-gradient">
                         <div class="card-body">
                             <h5 class="text-center text-dark font-weight-bold gradient-text">Primary Plan</h5>
                             <h1 class="text-center text-dark display-4 mb-4 gradient-text yearly-plan1">$0</h1>
@@ -420,13 +423,14 @@
                                 <li class="list-group-item text-center py-1">Source files</li>
                             </ul>
                             <div class="d-flex justify-content-center">
-                                <button class="btn btn-outline-styling font-weight-bold w-100">Try it Now</button>
+                                <button class="btn border-gradient btn-outline-styling font-weight-bold w-100">Try it
+                                    Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12 element-to-hide animation-test">
-                    <div class="card card2 margin-buttons">
+                    <div class="card card2 margin-buttons border-gradient">
                         <div class="card-body btn-outline-styling">
                             <h5 class="text-center text-dark font-weight-bold gradient-text">Popular Plan</h5>
                             <h1 class="text-center text-dark display-4 mb-4 gradient-text yearly-plan2">$40</h1>
@@ -438,14 +442,15 @@
                                 <li class="list-group-item text-center py-1">Source files</li>
                             </ul>
                             <div class="d-flex justify-content-center">
-                                <button class="btn btn-initial-styling text-white font-weight-bold w-100">Try it
+                                <button class="btn btn-initial-styling text-white font-weight-bold w-100"
+                                    id="btn-gra">Try it
                                     Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12 element-to-hide animation-test">
-                    <div class="card card2 margin-buttons">
+                    <div class="card card2 margin-buttons border-gradient">
                         <div class="card-body">
                             <h5 class="text-center text-dark font-weight-bold gradient-text">Professional Plan</h5>
                             <h1 class="text-center text-dark display-4 mb-4 gradient-text yearly-plan3">$60</h1>
@@ -457,7 +462,8 @@
                                 <li class="list-group-item text-center py-1">Source files</li>
                             </ul>
                             <div class="d-flex justify-content-center">
-                                <button class="btn btn-outline-styling font-weight-bold w-100">Try it Now</button>
+                                <button class="btn  border-gradient btn-outline-styling font-weight-bold w-100">Try it
+                                    Now</button>
                             </div>
                         </div>
                     </div>
@@ -471,7 +477,7 @@
     <!-----------------------------MESSAGE BOX----------------------------->
 
 
-    <div class="container">
+    <div class="container msg-bx">
         <div class="row">
             <div class="col-sm">
                 <p class="  font-weight-bold" style="color: gray;">Users Testimonials</p>
@@ -479,80 +485,105 @@
                     about us</h1>
             </div>
             <div class="col-sm">
-                <div class="row">
-                    <div class="col-sm   ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-lg-9 col-sm-7 col-7 col-try-it">
+                                        <p> <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            (5)
+                                        </p>
 
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
+                                        <p>"It's the best theme I've ever purchased.Excellent and easy code. Great value
+                                            for
+                                            flexibility,good, money”</p>
+                                        <h4>Roger Bentham</h4>
+                                        <p>Manager</p>
+                                    </div>
 
-                                    <p> <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        (5)
-                                    </p>
+                                    <div class="col-lg-2 col-sm-3 col-3 d-flex align-items-end ">
+                                        <img src="assets/profile-img-2.jpg" class="img-fluid" alt="">
 
-                                    <p>"It's the best theme I've ever purchased.Excellent and easy code. Great value for
-                                        flexibility,good, money”</p>
-                                    <h4>Roger Bentham</h4>
-                                    <p>Manager</p>
-
-                                </div>
-                                <div class="carousel-item">
-                                    <p> <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        (5)
-                                    </p>
-
-                                    <p>“It’s well designed, easy to use and very flexible without being bloated. Great
-                                        value for flexibility,good, money ”</p>
-                                    <h4>Roger Bentham</h4>
-                                    <p>Manager</p>
-                                </div>
-                                <div class="carousel-item">
-                                    <p> <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        (5)
-                                    </p>
-
-                                    <p>"Very versatile. Seems like you can build most of the stuff out of the box.Very
-                                        thoughtful. Great value for money"</p>
-                                    <h4>Roger Bentham</h4>
-                                    <p>Manager</p>
+                                    </div>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
+
                         </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-9 col-sm-7 col-7 col-try-it ">
+                                        <p> <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            (5)
+                                        </p>
 
+                                        <p>“It’s well designed, easy to use and very flexible without being bloated.
+                                            Great
+                                            value for flexibility,good, money ”</p>
+                                        <h4>James Robert </h4>
+                                        <p>Manager</p>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-3 col-3 d-flex align-items-end ">
+                                        <img src="http://rappix-epizy.surge.sh/images/profile-img.jpg" class="img-fluid"
+                                            alt="">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-lg-9 col-sm-7 col-7 col-try-it ">
+                                        <p> <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            <i class="fas fa-star msg-icn"></i>
+                                            (5)
+                                        </p>
+
+                                        <p>"Very versatile. Seems like you can build most of the stuff out of the
+                                            box.Very
+                                            thoughtful. Great value for money"</p>
+                                        <h4>William Philip</h4>
+                                        <p>Manager</p>
+                                    </div>
+
+                                    <div class="col-lg-2 col-sm-3 col-3 d-flex align-items-end ">
+                                        <img src="http://rappix-epizy.surge.sh/images/profile-img-3.jpg"
+                                            class="img-fluid" alt="">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <img src="assets/profile-img-2.jpg" class="img-fluid" alt="">
-                    </div>
-
-
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -569,7 +600,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-12">
-                    <h1 class="display-4 font-weight-bold text-white mobile-heading" >Get it now</h1>
+                    <h1 class="display-4 font-weight-bold text-white mobile-heading">Get it now</h1>
                     <p class="text-white">Available on all native App Store</p>
                     <a href="https://www.apple.com/retail/" target="_blank">
                         <img src="assets/is-badge-apple-store.png" alt="" class="img-fluid mt-lg-4">
@@ -581,6 +612,9 @@
             </div>
         </div>
     </div>
+
+
+    <!------------------------------- PARALLAX - END ----------------------------------->
 
 
 
@@ -602,7 +636,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="assets/blog-img-1.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Keep it simple and beautiful, fun and functional</h5>
@@ -613,7 +647,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="assets/blog-img-2.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Keep it simple and beautiful, fun and functional</h5>
@@ -624,7 +658,7 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img class="card-img-top" src="assets/blog-img-3.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Keep it simple and beautiful, fun and functional</h5>
@@ -777,32 +811,37 @@
                     </div>
 
                 </div>
-
-
             </div>
+
+
+
+
+            
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 contact-form">
                 <div class="container">
                     <h3 class="h3-contact h3-btm">Request Contact</h3>
-                    <form>
-                        <div class="form-group">
-
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Enter your Name*">
-
+                    <form action="mailto:shrayj55@gmail.com" method="post" enctype="text/plain" class="was-validated">
+                        <div class="form-group mt-4">
+                          <input class="form-control" placeholder="Enter your name*" type="text" required="">
+                          <div class="invalid-feedback"   style=" margin-top: -2em;">
+                            Name is required
+                          </div>
                         </div>
-                        <div class="form-group">
-
-                            <input type="email" class="form-control" id="exampleInputPassword1"
-                                placeholder="Enter your email*">
+                        <div class="form-group mt-4">
+                          <input class="form-control" placeholder="Enter your email*" type="email" required="">
+                          <div class="invalid-feedback"   style=" margin-top: -2em;">
+                            Valid Email is required
+                          </div>
                         </div>
-                        <div class="form-group">
-
-                            <textarea class="form-control" placeholder="Message*" required=""></textarea>
-
+                        <div class="form-group mt-4">
+                          <textarea class="form-control" placeholder="Message*" required=""></textarea>
+                          <div class="invalid-feedback"  style=" margin-top: -2em;">
+                            Please leave us a message
+                          </div>
                         </div>
-
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                        <button class="btn text-white mt-4 font-weight-bold btn-initial-styling" type="submit" id="btn-gra">Send Message</button>
+      
+                      </form>
                 </div>
             </div>
         </div>
@@ -824,9 +863,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12 col-12 " style="text-align: center;">
-                        <h2 class="foot-h2">Subscribe Newsletter</h2>
+                        <h2 class="font-weight-bold text-white">Subscribe Newsletter</h2>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
 
                         <div class="form-group">
 
@@ -840,7 +879,7 @@
         </div>
 
 
-        <div class="container support">
+        <div class="container support" >
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-lg-3 col-6 cl-1">
                     <div class="row rw-1">
@@ -852,7 +891,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm cl-1">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 cl-1">
                     <div class="row rw-1">
                         <h2>Useful Links</h2>
                     </div>
@@ -867,7 +906,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm cl-1">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 cl-1">
                     <div class="row rw-1">
                         <h2>Support</h2>
                     </div>
@@ -882,7 +921,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm cl-1">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 cl-1">
                     <div class="row rw-1">
                         <h2>Follow Us!</h2>
                     </div>
